@@ -1,0 +1,28 @@
+:root {
+  --verde-es: #055351;
+  --verde-cl: #b7fcc0;
+}
+
+.footer {
+  width: 100%;
+  background-color: var(--verde-es);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer ul {
+  width: 70%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+.footer li {
+  width: 20%;
+}
+.footer li img {
+  width: 70px;
+}

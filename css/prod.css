@@ -1,0 +1,39 @@
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.case {
+  width: 80%;
+  display: flex;
+}
+.prod {
+  width: 230px;
+  height: 300px;
+  border: 1px solid;
+  display: flex;
+  transition: 0.2s;
+  justify-content: space-around;
+  align-items: center;
+}
+.prod-img {
+  max-width: 200px;
+  margin-left: 10px;
+}
+.prod .txt {
+  scale: 0;
+  transition: 0.3s;
+  padding: 10px;
+}
+
+.prod:hover .txt {
+  scale: 1;
+}
+.prod:hover {
+  width: 100%;
+}
+.case:has(.prod:hover) .prod:not(:hover) {
+  scale: 0;
+  width: 0;
+}

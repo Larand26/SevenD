@@ -1,0 +1,47 @@
+:root {
+  --verde-es: #055351;
+  --verde-cl: #b7fcc0;
+}
+
+.nav {
+  background-color: var(--verde-es);
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 70px;
+}
+.itens-nav {
+  display: flex;
+  width: 500px;
+  list-style: none;
+}
+.itens-nav li {
+  width: 30%;
+  background-color: var(--verde-cl);
+  text-align: center;
+  margin: 0 10px;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 5px;
+  word-break: keep-all;
+  cursor: pointer;
+}
+.itens-nav li a {
+  text-decoration: none;
+  color: black;
+}
+.itens-nav li:hover {
+  opacity: 0.8;
+}
+.btn-login {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  color: #fff;
+  font-weight: 700;
+  word-break: keep-all;
+  cursor: pointer;
+}

@@ -1,0 +1,104 @@
+:root {
+  --cinza: #6c8a8d;
+  --laranja: #fd7014;
+}
+.cotacao {
+  background-color: var(--cinza);
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 200px auto 0;
+  padding: 20px;
+  align-items: center;
+}
+.inputs {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 200px;
+}
+
+.inputs label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.inputs input {
+  padding: 2px 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.title {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 0;
+}
+.btn-cotar {
+  margin-top: 30px;
+  width: 200px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: var(--laranja);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+}
+.btn-cotar:hover {
+  opacity: 0.8;
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.voos {
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.viagem {
+  width: 28%;
+  min-height: 100px;
+  background-color: var(--cinza);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.viagem img {
+  width: 100%;
+  transition: 0.2s;
+}
+.viagem img:hover {
+  transform: scale(1.2);
+}
+.btn-preco {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  color: var(--laranja);
+  font-weight: 800;
+}
+.viagem p {
+  text-align: center;
+  margin: 10px 0;
+  color: #fff;
+  font-weight: 800;
+}
+.viagem {
+  cursor: pointer;
+}
