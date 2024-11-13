@@ -40,3 +40,41 @@
   flex-direction: column;
   text-align: center;
 }
+.equipamentos {
+  text-align: center;
+}
+.infraestrutura {
+  flex-direction: column;
+}
+.infraestrutura p {
+  font-weight: 500;
+}
+.seguranca {
+  flex-wrap: wrap;
+}
+.seguranca li,
+.txt_seguranca {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+}
+.txt_seguranca {
+  font-weight: 900;
+}
+.protocolos,
+.iot {
+  flex-wrap: wrap;
+}
+.lista_protocolos {
+  font-size: 20px;
+  font-weight: 600;
+}
+.lista_protocolos li {
+  margin: 15px 0;
+}
+.pIot {
+  width: 25%;
+  max-width: 200px;
+  height: 200px;
+  background-color: black;
+}
