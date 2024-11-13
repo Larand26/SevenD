@@ -1,0 +1,42 @@
+.title {
+  font-size: 80px;
+  font-weight: 900;
+}
+:root {
+  --azul: #6c8a8d;
+  --laranja: #fd7014;
+  --margen: 70%;
+}
+.cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.fAzul {
+  background-color: var(--azul);
+}
+.case {
+  width: var(--margen);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+.txtBranco {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.subTitle {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--laranja);
+}
+.fundadores div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.sobreNos {
+  flex-direction: column;
+  text-align: center;
+}
