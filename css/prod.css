@@ -21,13 +21,13 @@ section {
   max-width: 200px;
   margin-left: 10px;
 }
-.prod .txt {
+.prod .txt-prod {
   scale: 0;
   transition: 0.3s;
   padding: 10px;
 }
 
-.prod:hover .txt {
+.prod:hover .txt-prod {
   scale: 1;
 }
 .prod:hover {
