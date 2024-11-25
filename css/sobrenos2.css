@@ -1,0 +1,35 @@
+.banner {
+  width: 100%;
+}
+.img-banner {
+  width: 100%;
+}
+.slides {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.slide {
+  width: 19%;
+  border: 1px solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.title_slide {
+  font-size: 30px;
+  font-weight: 900;
+  color: #003f8a;
+}
+.img_slide {
+  width: 70%;
+}
+.btn_slide {
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+}
