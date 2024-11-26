@@ -7,6 +7,7 @@ section {
 .case {
   width: 80%;
   display: flex;
+  justify-content: center;
 }
 .prod {
   width: 230px;
@@ -36,4 +37,9 @@ section {
 .case:has(.prod:hover) .prod:not(:hover) {
   scale: 0;
   width: 0;
+}
+.cont {
+  width: 80%;
+  display: flex;
+  justify-content: center;
 }
