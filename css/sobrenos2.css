@@ -128,3 +128,11 @@ li p {
   z-index: 10000;
   scale: 1.3;
 }
+.cont_Custos {
+  display: grid !important;
+  place-items: center;
+  width: 100%;
+}
+inframe {
+  width: 80%;
+}
